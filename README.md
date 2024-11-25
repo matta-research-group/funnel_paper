@@ -36,7 +36,10 @@ QCflow is a cheminformatics -> quantum chemistry workflow toolkit.
 │           └── b_18_single_v2_sp_c.log
 ├── Figures
 │   ├── planarity_eg_figure.ipynb
-│   └── plot_pngs
-│       └── planarity_eg_plot.png
+│   ├── plot_pngs
+│   │   └── planarity_eg_plot.png
+│   └── Quarto_interactive
+│       ├── interactive_plots.ipynb
+│       └── quarto_interactive_plots.qmd
 └── README.md
 ```
