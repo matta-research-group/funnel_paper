@@ -1,6 +1,7 @@
 # Funnel Paper
 This repository contains:
 - Examples of data extraction used in the funnel paper
+- Example python scripts used to submit and extract data from the HPC
 - Builing dyads from isolated monomers
 - How each figure in the paper was plotted
 - All the DataFrames used in the paper
@@ -20,7 +21,10 @@ QCflow is a cheminformatics -> quantum chemistry workflow toolkit.
 │   ├── reorganisation_dyads_df.csv
 │   └── SYBA_df.csv
 ├── Examples
+│   ├── example_calculation_submission.py
+│   ├── example_data_extraction_bulk.py
 │   ├── example_data_extraction.ipynb
+│   ├── example_molecule_building.ipynb
 │   └── example_molecule_logs
 │       ├── 18
 │       │   └── 18_opt.log
