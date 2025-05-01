@@ -8,7 +8,7 @@ This repository contains:
 
 # QCflow
 
-The funnel paper leverages [QCflow](https://github.com/matta-research-group/QCflow/tree/qcflow-0.2) package which has been developed by Tristan Stephens-Jones in the Matta Research group. 
+The funnel paper leverages [QCflow](https://github.com/matta-research-group/QCflow.git) package which has been developed by Tristan Stephens-Jones in the Matta Research group. 
 
 QCflow is a cheminformatics -> quantum chemistry workflow toolkit.
 
