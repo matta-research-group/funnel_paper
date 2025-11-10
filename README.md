@@ -8,18 +8,49 @@ This repository contains:
 
 # QCflow
 
-The funnel paper leverages [QCflow](https://github.com/matta-research-group/QCflow.git) package which has been developed by Tristan Stephens-Jones in the Matta Research group. 
+The funnel paper leverages [QCflow](https://github.com/matta-research-group/QCflow.git) package which has been developed by Tristan Stephens-Jones in the Matta Research group.
+
+Additional leverages [MithrilMolGA](https://github.com/matta-research-group/MithrilMolGA/tree/MithrilMolGA-0.2) a genetic algorithm package which has been developed by Tristan Stephens-Jones in the Matta Research group.
 
 QCflow is a cheminformatics -> quantum chemistry workflow toolkit.
+
+MithrilMolGA is a genetic algorithm package for molecular discovery.
 
 ## Files
 
 ```bash
-├── DataFrames
-│   ├── d_a_match_all_systems_df.csv
-│   ├── eg_plan_df.csv
-│   ├── reorganisation_dyads_df.csv
-│   └── SYBA_df.csv
+├── Data
+│   ├── Funnel
+│   │   ├── funnel_planarity_energy_gap_data.csv
+│   │   └── reorganized_dyads_data.csv
+│   ├── GA
+│   │   ├── funnel_ga_overlap_matrrix.xlsx
+│   │   ├── run_1
+│   │   │   ├── elite_run_33_df.csv
+│   │   │   ├── elite_run_45_df.csv
+│   │   │   ├── molecules_to_run_1.json
+│   │   │   └── run_df.csv
+│   │   ├── run_2
+│   │   │   ├── elite_run_34_df.csv
+│   │   │   ├── elite_run_45_df.csv
+│   │   │   ├── molecules_to_run_1.json
+│   │   │   └── run_df.csv
+│   │   ├── run_3
+│   │   │   ├── elite_run_34_df.csv
+│   │   │   ├── elite_run_45_df.csv
+│   │   │   ├── molecules_to_run_1.json
+│   │   │   └── run_df.csv
+│   │   ├── run_4
+│   │   │   ├── elite_run_33_df.csv
+│   │   │   ├── elite_run_45_df.csv
+│   │   │   ├── molecules_to_run_1.json
+│   │   │   └── run_df.csv
+│   │   └── run_5
+│   │       ├── elite_run_32_df.csv
+│   │       ├── elite_run_45_df.csv
+│   │       ├── molecules_to_run_1.json
+│   │       └── run_df.csv
+│   └── matched_repeats_funnel_82.csv
 ├── Examples
 │   ├── example_calculation_submission.py
 │   ├── example_data_extraction_bulk.py
@@ -39,9 +70,16 @@ QCflow is a cheminformatics -> quantum chemistry workflow toolkit.
 │           ├── b_18_single_v2_sp_a.log
 │           └── b_18_single_v2_sp_c.log
 ├── Figures
-│   ├── planarity_eg_figure.ipynb
+│   ├── funnel_plan_eg_plotting.ipynb
+│   ├── funnel_reorg_plotting.ipynb
 │   ├── plot_pngs
-│   │   └── planarity_eg_plot.png
+│   │   ├── figure1.png
+│   │   ├── figure2.tiff
+│   │   ├── figure3.png
+│   │   ├── figure4.png
+│   │   ├── figure5.png
+│   │   ├── figure6a.png
+│   │   └── figure6b.png
 │   └── Quarto_interactive
 │       ├── interactive_plots.ipynb
 │       └── quarto_interactive_plots.qmd
