@@ -1,20 +1,18 @@
-# Funnel Paper
+# Computational Screening of Bioinspired Mixed Ionic–Electronic Conductors
+
 This repository contains:
-- Examples of data extraction used in the funnel paper
+- Examples of data extraction used in the paper
 - Example python scripts used to submit and extract data from the HPC
 - Builing dyads from isolated monomers
 - How each figure in the paper was plotted
 - All the DataFrames used in the paper
 
-# QCflow
+# Additional Software
 
-The funnel paper leverages [QCflow](https://github.com/matta-research-group/QCflow.git) package which has been developed by Tristan Stephens-Jones in the Matta Research group.
+- [QCflow](https://github.com/matta-research-group/QCflow.git), a cheminformatics -> quantum chemistry workflow toolkit developed by Tristan Stephens-Jones in the Matta Research group.
 
-Additional leverages [MithrilMolGA](https://github.com/matta-research-group/MithrilMolGA/tree/MithrilMolGA-0.2) a genetic algorithm package which has been developed by Tristan Stephens-Jones in the Matta Research group.
+- [MithrilMolGA](https://github.com/matta-research-group/MithrilMolGA/tree/MithrilMolGA-0.2), a genetic algorithm for the discovery of organic semiconductors developed by Tristan Stephens-Jones in the Matta Research group.
 
-QCflow is a cheminformatics -> quantum chemistry workflow toolkit.
-
-MithrilMolGA is a genetic algorithm package for molecular discovery.
 
 ## Files
 
