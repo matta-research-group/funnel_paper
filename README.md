@@ -1,5 +1,9 @@
 # Computational Screening of Bioinspired Mixed Ionic–Electronic Conductors
 
+<img width="243" height="191" alt="image" src="https://github.com/user-attachments/assets/8c4cd7b9-3439-4974-af27-a075d4185441" />
+
+
+
 This repository contains:
 - Examples of data extraction used in the paper
 - Example python scripts used to submit and extract data from the HPC
