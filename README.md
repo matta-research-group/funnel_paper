@@ -7,7 +7,7 @@
 This repository contains:
 - Examples of data extraction used in the paper
 - Example python scripts used to submit and extract data from the HPC
-- Builing dyads from isolated monomers
+- Builing Donor-Acceptor pairs from isolated monomers
 - How each figure in the paper was plotted
 - All the DataFrames used in the paper
 
