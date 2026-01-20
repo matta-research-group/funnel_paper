@@ -47,11 +47,37 @@ This repository contains:
 │   │   │   ├── elite_run_45_df.csv
 │   │   │   ├── molecules_to_run_1.json
 │   │   │   └── run_df.csv
-│   │   └── run_5
-│   │       ├── elite_run_32_df.csv
-│   │       ├── elite_run_45_df.csv
-│   │       ├── molecules_to_run_1.json
-│   │       └── run_df.csv
+│   │   ├── run_5
+│   │   │   ├── elite_run_32_df.csv
+│   │   │   ├── elite_run_45_df.csv
+│   │   │   ├── molecules_to_run_1.json
+│   │   │   └── run_df.csv
+│   │   └── SA_score_weight_change
+│   │       ├── weight_0
+│   │       │   ├── elite_run_24_df.csv
+│   │       │   ├── elite_run_34_df.csv
+│   │       │   ├── molecules_to_run_1.json
+│   │       │   └── run_df.csv
+│   │       ├── weight_025
+│   │       │   ├── elite_run_32_df.csv
+│   │       │   ├── elite_run_45_df.csv
+│   │       │   ├── molecules_to_run_1.json
+│   │       │   └── run_df.csv
+│   │       ├── weight_05
+│   │       │   ├── elite_run_22_df.csv
+│   │       │   ├── elite_run_32_df.csv
+│   │       │   ├── molecules_to_run_1.json
+│   │       │   └── run_df.csv
+│   │       ├── weight_075
+│   │       │   ├── elite_run_23_df.csv
+│   │       │   ├── elite_run_33_df.csv
+│   │       │   ├── molecules_to_run_1.json
+│   │       │   └── run_df.csv
+│   │       └── weight_1
+│   │           ├── elite_run_25_df.csv
+│   │           ├── elite_run_35_df.csv
+│   │           ├── molecules_to_run_1.json
+│   │           └── run_df.csv
 │   └── matched_repeats_funnel_82.csv
 ├── Examples
 │   ├── example_calculation_submission.py
@@ -74,13 +100,15 @@ This repository contains:
 ├── Figures
 │   ├── funnel_plan_eg_plotting.ipynb
 │   ├── funnel_reorg_plotting.ipynb
-│   ├── plot_pngs
-│   │   ├── figure1.png
-│   │   ├── figure2.tiff
-│   │   ├── figure3.png
-│   │   ├── figure4.png
-│   │   ├── figure5.png
-│   │   ├── figure6a.png
-│   │   └── figure6b.png
+│   ├── ga_repeats_progress_plots_SA_score.ipynb
+│   ├── ga_repeats_progress_plots.ipynb
+│   └── plot_pngs
+│       ├── figure1.png
+│       ├── figure2.tiff
+│       ├── figure3.png
+│       ├── figure4.png
+│       ├── figure5.png
+│       ├── figure6a.png
+│       └── figure6b.png
 └── README.md
 ```
