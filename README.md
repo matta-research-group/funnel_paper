@@ -15,7 +15,7 @@ This repository contains:
 
 - [QCflow](https://github.com/matta-research-group/QCflow.git), a cheminformatics -> quantum chemistry workflow toolkit developed by Tristan Stephens-Jones in the Matta Research group.
 
-- [MithrilMolGA](https://github.com/matta-research-group/MithrilMolGA/tree/MithrilMolGA-0.2), a genetic algorithm for the discovery of organic semiconductors developed by Tristan Stephens-Jones in the Matta Research group.
+- [MithrilMolGA](https://github.com/matta-research-group/MithrilMolGA/tree/MithrilMolGA-0.2), a genetic algorithm for the discovery of organic semiconductors developed by Tristan Stephens-Jones in the Matta Research group. Also contains built in, on the fly, calculation submission and data extraction functionality using QCflow.
 
 
 ## Files
@@ -80,10 +80,14 @@ This repository contains:
 │   │           └── run_df.csv
 │   └── matched_repeats_funnel_82.csv
 ├── Examples
-│   ├── example_calculation_submission.py
-│   ├── example_data_extraction_bulk.py
-│   ├── example_data_extraction.ipynb
-│   ├── example_molecule_building.ipynb
+│   ├── example_funnel_submission
+│   │   ├── example_calculation_submission.py
+│   │   ├── example_data_extraction_bulk.py
+│   │   ├── example_data_extraction.ipynb
+│   │   └── example_molecule_building.ipynb
+│   ├── example_GA_submission
+│   │   ├── master_GA_script.py
+│   │   └── run_GA.sh
 │   └── example_molecule_logs
 │       ├── 18
 │       │   └── 18_opt.log
