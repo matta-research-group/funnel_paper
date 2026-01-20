@@ -1,6 +1,13 @@
 # Computational Screening of Bioinspired Mixed Ionic–Electronic Conductors
 
-<img width="486" height="382" alt="image" src="https://github.com/user-attachments/assets/8c4cd7b9-3439-4974-af27-a075d4185441" />
+<img
+  width="486"
+  height="382"
+  alt="image"
+  src="https://github.com/user-attachments/assets/8c4cd7b9-3439-4974-af27-a075d4185441"
+  style="display:block; margin:auto;"
+/>
+
 
 
 
